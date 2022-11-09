@@ -1,0 +1,132 @@
+---
+title: "Lab 4 Extra Credit"
+author: "Karen Guerrero"
+date: "2022-10-10"
+output: pdf_document
+---
+```{r}
+source("http://thegrantlab.org/misc/cdc.R")
+View(cdc)
+```
+
+```{r}
+head(cdc$height)
+```
+
+```{r}
+tail(cdc$weight, n=20)
+```
+
+```{r}
+library("ggplot2")
+```
+
+
+```{r}
+ggplot( data = cdc, aes( x=height, y=weight ) ) +
+geom_point() + 
+xlab("height (inches)") + # x-axis label
+ylab("weight (pounds)") # y-axis label
+
+```
+
+```{r}
+cor.test(~height + weight, data=cdc)
+```
+
+```{r}
+cor(cdc$height, cdc$weight)
+```
+
+```{r}
+hist(cdc$weight)
+```
+
+```{r}
+hist(cdc$height)
+```
+
+```{r}
+height_m <- cdc$height * 0.0254
+```
+
+```{r}
+weight_kg <- cdc$weight * 0.454
+```
+
+```{r}
+BMI <- (weight_kg)/(height_m^2)
+ggplot( data = cdc, aes( x=height_m, y=BMI ) ) +
+geom_point() + 
+xlab("height (meters)") + # x-axis label
+ylab("BMI") # y-axis label
+```
+
+
+```{r}
+cor(height_m, BMI)
+```
+
+
+```{r}
+head(BMI >= 30, 20000)
+```
+```{r}
+sum(BMI >= 30)
+```
+
+```{r}
+sum(BMI >= 30)/length(BMI)
+```
+
+```{r}
+(sum(BMI >= 30)/length(BMI)) * 100
+```
+
+```{r}
+round( (sum(BMI >= 30)/length(BMI)) * 100, 1)
+```
+
+```{r}
+cdc[567, 6]
+```
+
+```{r}
+cdc[1:10, 6]
+```
+
+```{r}
+cdc[1:10, ]
+```
+
+```{r}
+ggplot( data = cdc [1:100,], aes( x=height, y=weight ) ) +
+geom_point() + 
+xlab("height (inches)") + # x-axis label
+ylab("weight(pounds)") # y-axis label
+```
+
+```{r}
+table(cdc$gender)
+```
+
+```{r}
+sum(cdc$gender, BMI >= 30)
+```
+
+```{r}
+Males <- cdc[cdc$gender=="m", , drop = FALSE]
+View(Males)
+```
+
+```{r}
+height_males <- Males$height * 0.0254
+weight_kg_males <- Males$weight * 0.454
+bmi <- (weight_kg_males)/(height_males^2)
+sum(bmi >= 30)
+```
+
+```{r}
+sum(bmi >= 30)
+```
+

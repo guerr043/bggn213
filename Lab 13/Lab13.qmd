@@ -1,0 +1,57 @@
+---
+title: "Lab13"
+author: "Karen Guerrero"
+format: pdf
+---
+```{r}
+library(DESeq2)
+```
+
+```{r}
+read.csv("GSE37704_metadata.csv")
+read.csv("GSE37704_featurecounts.csv")
+metaFile <- "GSE37704_metadata.csv"
+countFile <- "GSE37704_featurecounts.csv"
+```
+
+```{r}
+# Import metadata and take a peak
+colData = read.csv(metaFile, row.names=1)
+head(colData)
+```
+
+
+```{r}
+# Import countdata
+countData = read.csv(countFile, row.names=1)
+head(countData)
+```
+##Q1. Complete the code below to remove the troublesome first column from countData:
+```{r}
+# Note we need to remove the odd first $length col
+countData <- as.matrix(countData[,-1])
+head(countData)
+```
+
+
+##Q2. Complete the code below to filter countData to exclude genes (i.e. rows) where we have 0 read count across all samples (i.e. columns). Tip: What will rowSums() of countData return and how could you use it in this context?
+
+```{r}
+# Filter count data where you have 0 read count across all samples.
+countData = countData[rowSums(countData) != 0, ]
+head(countData)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+

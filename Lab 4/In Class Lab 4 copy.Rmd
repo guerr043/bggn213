@@ -1,0 +1,116 @@
+---
+title: "In Class Lab 4"
+author: "Karen Guerrero"
+date: "2022-10-07"
+output: pdf_document
+---
+```{r}
+x <- 1:5
+x
+```
+
+```{r}
+x[3]
+```
+
+```{r}
+x + 100
+```
+
+```{r}
+x
+x + c( 100,1 )
+```
+
+```{r}
+y <- c("barry", "alice", "changra", "eva")
+y
+```
+
+```{r}
+y + 100
+```
+
+```{r}
+z <- c("barry", "alice", "changra", "eva",100)
+z
+```
+
+```{r}
+z + 100
+```
+
+```{r}
+x <- c(TRUE, FALSE, T, T, F)
+x
+```
+
+```{r}
+x + 100
+```
+
+```{r}
+grades <- c("barry"=6, "chandra"=10, "eva"=9)
+grades
+```
+
+```{r}
+names(grades)
+```
+
+```{r}
+sort(grades)
+```
+
+```{r}
+df <- data.frame(nums=1:5,chars=letters[1:5])
+View(df)
+```
+
+```{r}
+df <- data.frame(nums=1:5,chars=letters[1:5], logical=c(T,T,F,T,F))
+View (df)
+```
+
+```{r}
+df$chars
+```
+
+```{r}
+df[3,]
+```
+
+```{r}
+df$nums >= 3
+```
+
+```{r}
+df$nums
+```
+
+
+```{r}
+df[df$nums >= 3,]
+```
+
+```{r}
+positions <- df$nums >= 3
+positions
+```
+
+```{r}
+df[positions,]
+```
+
+```{r}
+c(1:5)
+x <-1:50
+plot(x)
+plot(x, sin(x))
+plot(x, sin(x), type="l", col="blue", lwd=3)
+```
+
+```{r}
+
+```
+

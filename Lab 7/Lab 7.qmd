@@ -1,0 +1,21 @@
+---
+title: "Lab 7"
+format: pdf
+---
+
+```{r}
+url <- "https://tinyurl.com/UK-foods"
+x <- read.csv(url)
+```
+
+```{r}
+nrow(x)
+ncol(x)
+```
+
+```{r}
+View(x)
+head(x)
+tail(x)
+```
+
