@@ -1,7 +1,7 @@
 ---
 title: "Lab 19"
 author: "Karen Guerrero"
-format: pdf
+format: html
 ---
 
 ```{r}
@@ -85,6 +85,9 @@ baseplot <- ggplot(cdc) +
 ```
 
 ##Q2. Using the ggplot geom_vline() function add lines to your previous plot for the 1946 introduction of the wP vaccine and the 1996 switch to aP vaccine (see example in the hint below). What do you notice?
+
+I noticed that there was a drastic decrease of number of reported Pertussis cases between 1946 and 1996. The number of reported Pertussis cases were very low by year ~1960 and stayed low until ~2002. After ~2002 there was a small increase of reported cases. 
+
 ```{r}
 ggplot(cdc) +
   aes(Year, No..Reported.Pertussis.Cases) +
@@ -99,9 +102,10 @@ There are two main Pertussis vaccine types, so-called whole-cell Pertusis (wP) a
 ```{r}
 baseplot + geom_vline(xintercept = 1946, color="red", linetype=2) + geom_vline(xintercept = 1996, color="blue", linetype=2) + geom_text(x=1948, y=250000, label="wP", col="red") + geom_text(x=1998, y=250000, label="aP", col="blue")
 ```
+
 ##Q3. Describe what happened after the introduction of the aP vaccine? Do you have a possible explanation for the observed trend?
 
-After the introduction of aP vaccine the number of reported Pertussis cases began to slightly increase. I think introducing a new type of Pertussis vaccine created a fear towards the new type of vaccine causing the population to not get vaccinated anymore. 
+After the introduction of aP vaccine the number of reported Pertussis cases began to slightly increase. I think introducing a new type of Pertussis vaccine created a fear towards the new type of vaccine causing the population to not get vaccinated anymore due to fear. 
 
 
 # The CMI-PB database
@@ -142,7 +146,7 @@ table(subject$biological_sex)
 ```
 
 ```{r}
-View(subject)
+#View(subject)
 ```
 
 
@@ -187,14 +191,6 @@ subject$age <- time_length( today() - ymd(subject$year_of_birth), "years")
 ```
 
 
-##Q7. Using this approach determine (i) the average age of wP individuals, (ii) the average age of aP individuals; and (iii) are they significantly different?
-
-The average age of wP individuals is 36.
-
-The average age of aP individuals is 25.
-
-Based off the p-value (2.2e-16) obtained from a T-test it demonstrates that they are are significantly different. 
-
 ```{r}
 library(dplyr)
 
@@ -202,6 +198,7 @@ ap <- subject %>% filter(infancy_vac == "aP")
 
 round( summary(ap$age))
 ```
+
 
 ```{r}
 wp <- subject %>% filter(infancy_vac == "wP")
@@ -212,6 +209,15 @@ round( summary(wp$age))
 ```{r}
 t.test(ap$age, wp$age)
 ```
+
+##Q7. Using this approach determine (i) the average age of wP individuals, (ii) the average age of aP individuals; and (iii) are they significantly different?
+
+The average age of wP individuals is 36.
+
+The average age of aP individuals is 25.
+
+Based off the p-value (2.2e-16) obtained from a T-test, it demonstrates that they are are significantly different. 
+
 
 ##Q8. Determine the age of all individuals at time of boost?
 
@@ -333,7 +339,6 @@ head(ig1)
 ```
 
 
-##Q13. Complete the following code to make a summary boxplot of Ab titer levels for all antigens:
 
 ```{r}
 ggplot(ig1) +
@@ -343,6 +348,8 @@ ggplot(ig1) +
 
 We can break this up by visit (a quick proxy for time since boost).
 
+##Q13. Complete the following code to make a summary boxplot of Ab titer levels for all antigens:
+
 ```{r}
 ggplot(ig1) +
   aes(MFI, antigen) +
@@ -351,8 +358,7 @@ ggplot(ig1) +
 ```
 
 ##Q14. What antigens show differences in the level of IgG1 antibody titers recognizing them over time? Why these and not others?
-Antigen FIM2/3 shows the greatest difference over time. Antigen FIM2/3 is different over time because it might have been used for the development of the vaccine. 
-
+Antigen FIM2/3 shows the greatest difference in the level of IgG1 antibody titers recognizing them over time. Antigen FIM2/3 has the greatest difference over time because it might have been used for the development of the vaccine, which would affect the level of IgG1 antibody titers recognizing them over time. 
 
 ```{r}
 ggplot(ig1) +
