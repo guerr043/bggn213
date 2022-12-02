@@ -16,3 +16,4 @@ Contents:
 - Class 12 [Transcriptomics and the analysis of RNA-Seq data](https://github.com/guerr043/bggn213/blob/main/Lab%2012/Lab12.md)
 - Class 13 [RNA-Seq analysis mini-project](https://github.com/guerr043/bggn213/blob/main/Lab%2013/Lab13.md)
 - Class 17 [Vaccination rate mini project](https://github.com/guerr043/bggn213/blob/main/Lab%2017/Lab17.md)
+- Class 19 [Mini Project: Investigating Pertussis Resurgence] (
