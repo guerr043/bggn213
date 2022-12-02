@@ -1,0 +1,242 @@
+CLUSTAL multiple sequence alignment by MUSCLE (3.8)
+
+
+Dictyostelium      --------------MNENISVSVRARPFNEKEVKDKEHCLWQFGNNNTITSLPPPITQPV
+Mus                ----------MAGQGDCCVKVAVRIRPQLSKEKIEGCHI---------------------
+Xenopus            MSSQNSFMSSKKDDKGKNIQVVVRCRPFNQLERKASSHSVLE------------------
+Rat                MASQPSSSSKKKEEKGKNIQVVVRCRPFNLAERKANAHSVVE------------------
+Humans             MASQPNSSAKKKEEKGKNIQVVVRCRPFNLAERKASAHSIVE------------------
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      SSLPPISTPIKSSSSSSTSTSAGSLKTPLKTPLKTPLKTPLKTNSTTTNTTVPASPAPTS
+Mus                -----------------------------------------------CTSVTPGEPQVLL
+Xenopus            -----------------------------------------------CDAPRKEVCVRTG
+Rat                -----------------------------------------------CDHARKEVSVRTA
+Humans             -----------------------------------------------CDPVRKEVSVRTG
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      SLTSKFVSNSYTYDHLFPPTCDNYEVYDTVARELVKSAMEGYNASIMAYGITSSGKTFTM
+Mus                G-----KDKAFTYDFVFDLDTWQEQIYSTCVSKLIEGCFEGYNATVLAYGQTGAGKTYTM
+Xenopus            GINDKLGKKTYTFDMVFGPAAKQIDVYRSVVCPILDEVIMGYNCTVFAYGQTGTGKTFTM
+Rat                GLTDKTSRKTYTFDMVFGASTKQIDVYRSVVCPILDEVIMGYNCTIFAYGQTGTGKTFTM
+Humans             GLADKSSRKTYTFDMVFGASTKQIDVYRSVVCPILDEVIMGYNCTIFAYGQTGTGKTFTM
+Sus                ------------------------------------------------------GKTFTM
+                                                                         ***:**
+
+Dictyostelium      TG--------SGKKNP--GIIPLSIQDIFTYIQE---------CKEREFLLRVSYLEIYN
+Mus                GTGF---DTVTSEEEQ--GIIPRAIAHLFRGIDERKRRAQEKGVTGPEFKVSAQFLELYN
+Xenopus            EGERSADEEFTWEQDPLAGIIPRTLHQIFEKLSE----------NGTEFSVKVSLLEIYN
+Rat                EGERSPNEVYTWEEDPLAGIIPRTLHQIFEKLTD----------NGTEFSVKVSLLEIYN
+Humans             EGERSPNEEYTWEEDPLAGIIPRTLHQIFEKLTD----------NGTEFSVKVSLLEIYN
+Sus                EGERSPNEEYTWEEDPLAGIIPRTLHQIFEKLTD----------NGTEFSVKVSLLEIYN
+                             : :::   **** ::  :*  : :          .  ** : .. **:**
+
+Dictyostelium      ETVNDLLGVNQE------NFNLKIHEHPVT--GVYVAGLKEEIVLSVEHVLSLISAGEAH
+Mus                EEILDLFDSTRDPDARHRRSNIKIHEDANG--GIYTTGVTSRLINSQEELIQCLKQGALS
+Xenopus            EELFDLLSPSPDV-----GERLQMFDDPRNKRGVIIKGLEEVSVHNKDEVYHILERGAAR
+Rat                EELFDLLSPSSDV-----SERLQMFDDPRNKRGVIIKGLEEITVHNKDEVYQILEKGAAK
+Humans             EELFDLLNPSSDV-----SERLQMFDDPRNKRGVIIKGLEEITVHNKDEVYQILEKGAAK
+Sus                EELFDLLNPSSDV-----SERLQMFDDPRNKRGVIIKGLEEITVHNKNEVYQILEKGAAK
+                   * : **:. . :        .:::.: .    *:   *: .  : . : :   :. *   
+
+Dictyostelium      RHVGSTSYNLQSSRSHTIFKMII-------------ESKEVLPEGSGSGGLESPVRYSTL
+Mus                RTTASTQMNVQSSRSHAIFTIHLCQMRVCAQPDLVNETVTGLPDGAAPTGTEYETLTAKF
+Xenopus            RKTASTLMNAYSSRSHSVFSVTI-------------HMKETTVDG------EELVKIGKL
+Rat                RTTAATLMNAYSSRSHSVFSVTI-------------HMKETTIDG------EELVKIGKL
+Humans             RTTAATLMNAYSSRSHSVFSVTI-------------HMKETTIDG------EELVKIGKL
+Sus                RTTAATLMNAYSSRSHSVFSVTI-------------HMKETTVDG------EELVKIGKL
+                   * ..:*  *  *****::*.: :                    :*      *  .  ..:
+
+Dictyostelium      NLIDLAGSEKASESTISAIRNKEGSYINKSLLTLGTVISKLSEKDTG--YIPYRDSKLTR
+Mus                HFVDLAGSERLKRTGATGERAKEGISINCGLLALGNVISALGDQSKKVVHVPYRDSKLTR
+Xenopus            NLVDLAGSENIGRSGAVDKRAREAGNINQSLLTLGRVITALVERAP---HIPYRESKLTR
+Rat                NLVDLAGSENIGRSGAVDKRAREAGNINQSLLTLGRVITALVERTP---HIPYRESKLTR
+Humans             NLVDLAGSENIGRSGAVDKRAREAGNINQSLLTLGRVITALVERTP---HVPYRESKLTR
+Sus                NLVDLAGSENIGRSGAVDKRAREAGNINQSLLTLGRVITALVERTP---HVPYRESKLTR
+                   :::******.   :     * .*.  ** .**:** **: * :.     ::***:*****
+
+Dictyostelium      VLQNSLSGNSRVAIICTITLASNNFEESHNTLKFASRAKKISNNAKVNEILDDK------
+Mus                LLQDSLGGNSQTIMIACVSPSDRDFMETLNTLKYANRARNIKNKVVVNQDKTSQQISALR
+Xenopus            ILQDSLGGRTKTSIIATVSPASINLEETVSTLEYANRAKNIMNKPEVNQKLTKR------
+Rat                ILQDSLGGRTRTSIIATISPASLNLEETLSTLEYAHRAKNIMNKPEVNQKLTKK------
+Humans             ILQDSLGGRTRTSIIATISPASLNLEETLSTLEYAHRAKNILNKPEVNQKLTKK------
+Sus                ILQDSLGGRTRTSIIATISPASLNLEETLSTLEYAHRAKNILNKPEVNQKLTKK------
+                   :**:**.*.:.. :*. :: :. :: *: .**::* **.:* *:  **:   ..      
+
+Dictyostelium      ------------------------------------------------------------
+Mus                AEIARLQMELMEYKAGKRVIGEDGTEGYSDLFRENAMLQKENGALRLRVKAMQEAIDAIN
+Xenopus            ------------------------------------------------------------
+Rat                ------------------------------------------------------------
+Humans             ------------------------------------------------------------
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      --------------------------ALLKQYRNEI--------------AELKSKLSDA
+Mus                NRVTQLMSQEANLLLAKAGDGNEAIGALIQNYIREIEELRTKLLESEAMNESLRRSLSRA
+Xenopus            --------------------------ALIKEYTEEI--------------ERLKRDLATA
+Rat                --------------------------ALIKEYTEEI--------------ERLKRDLAAA
+Humans             --------------------------ALIKEYTEEI--------------ERLKRDLAAA
+Sus                --------------------------ALIKEYTEEI--------------ERLKRDLAAA
+                                             **:::*  **                *. .*: *
+
+Dictyostelium      ------------------------------------------------------------
+Mus                SARNPYSLGASPAGPAFGGSPATSMEDASEVIRKAKQDLERLKKKEVRQRRKSPEKEAFK
+Xenopus            REKNGVYL-SNENYEQLQGKVLSQEEIITEYTEKI-----------------TAMEEEIK
+Rat                REKNGVYI-SEESFRAMNGKVTVQEEQIAELAEKI-----------------GVLEEELS
+Humans             REKNGVYI-SEENFRVMSGKLTVQEEQIVELIEKI-----------------GAVEEELN
+Sus                RK----------------------------------------------------------
+                                                                               
+
+Dictyostelium      ------LSTEKELQETLTE-----------------------------------------
+Mus                KRAKLQAENSEETDENEAEEEEEERDESGCEEEEGREDEDEDSGSEESLVDSDSDPEEKE
+Xenopus            RINELFAENKKELEECTTILQCKEK-----------------------------------
+Rat                KAAELFTDSEKELNQCKSDLQTKTQ-----------------------------------
+Humans             RVTELFMDNKNELDQCKSDLQNKTQ-----------------------------------
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      --------------------------------------KEKMKITNQELL----------
+Mus                VNFQADLADLTCEIEIKQKLIDELENSQRRLQTLKHQYEEKLILLQNKIRDTQLERDRVL
+Xenopus            ----------------------ELEETQKNLH------ESKEQLAQEAFVVTALET----
+Rat                ----------------------ELETTQKHLQ------ETKLQLVKEEYVSSALER----
+Humans             ----------------------ELETTQKHLQ------ETKLQLVKEEYITSALES----
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      ------------------------------------------------------------
+Mus                QNLSTMECYTEEKANKIKADYEKRLREMNRDLQKLQAAQKEHARLLKNQSRYERELKKLQ
+Xenopus            ---------TEKKLHGTANKLLTTVRETSKDVSGLHA-----------------------
+Rat                ---------TEKKLHETASKLLNTVKETTRDVSGLHS-----------------------
+Humans             ---------TEEKLHDAASKLLNTVEETTKDVSGLHS-----------------------
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      -----------------------HKLVD--------------------------------
+Mus                AEVAEMKKAKVALMKQMREEQQRRRLVETKRNREIAQLKKEQRRQEFQIRALESQKRQQE
+Xenopus            -------------------KLDRKRAVD------------------------QHNTQVHE
+Rat                -------------------KLDRKRAID------------------------AHNAEAQE
+Humans             -------------------KLDRKKAVD------------------------QHNAEAQD
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      --------------------AEKHRSLLESKINNLNKLILVSTSVNNSASKGGSGSGNG-
+Mus                IVLRRKTQEVSALRRLAKPMSERVAGRVGLKPPNMDSGAEVSASTTSSEAESGARSVSSI
+Xenopus            NFAEQMDKRFSVIERSVDEYSVKQQGMLDFYTNSIDNLLGASSAALSVTATAVAKSFTSV
+Rat                SFGRSLSSLFNNMEELIRDGSEKQKAMLDVHKALFGNLMSSSVSALDTISTTALESLMSI
+Humans             IFGKNLNSLFNNMEELIKDGSSKQKAMLEVHKTLFGNLLSSSVSALDTITTVALGSLTSI
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      ------------------------------------------------------------
+Mus                VRQWNRKIDHFLGDRPTATVNGGRPARKKFQKKGASQSFSKAARLKWQSLERRIIDIVMQ
+Xenopus            QETVSEKVSH-------------------------------------------SVDEILK
+Rat                PENVLARVSQ-------------------------------------------ISDMILE
+Humans             PENVSTHVSQ-------------------------------------------IFNMILK
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      ------------------------------------------------------------
+Mus                RMTIVNLEADMERLIKKREELFLLQEALRRKREHLQAESPEEEKGLQELAEEIEVLAANI
+Xenopus            QETLSSQAKD------------DLQKLMAAHRTGL----------EQALRTDLLPVVTAV
+Rat                EQSLAAQSKT------------VLQGSIDELVTNL----------FTSLKTIIAPGVVSI
+Humans             EQSLAAESKT------------VLQELINVLKTDL----------LSSLEMILSPTVVSI
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      -------NGSRSTFVSPSQNSHHHHGDLGSITP------------NSFSNLLLQSPSQNN
+Mus                DYINDSITDCQATIVQLEETKEELDSTDTSVVISSCSLAEARLLLDNFLKASIDKGLQVA
+Xenopus            LNLNSHLSHCLQNFQAVADKIDSHKEEMNSFFTEHS---------RSLHRLRLDSGSALS
+Rat                LNINRQLQHIFRASVTMAEKVEDQKREIDSFLSILC---------NNLHELRENTVSSLV
+Humans             LKINSQLKHIFKTSLTVADKIEDQKKELDGFLSILC---------NNLHELQENTICSLV
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      NNNSHISPLSQSTSSLTIGGGSGNGFESNEL----------------IQIQSKMAKLELE
+Mus                QKEAQIRLLEGRLRQTDMTGSSQNHLLLDALREKAEAHPELQALIYNVQHENGYASTDEE
+Xenopus            SIQSEYESLKVEIETAQSMHSEGVNNLIGSLQNQLNLLAMETQQNF-SGFLAKGGKLQKS
+Rat                ESQKLCGNLTEDLKTIKETHSQELCQLSSSWAER-----------F-CALEKKYANIQKP
+Humans             ESQKQCGNLTEDLKTIKQTHSQELCKLMNLWTER-----------F-CALEEKCENIQKP
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      LEEKNKKIDFLTSFNQDSALEKIKQLEGELVQRDMDLGLYQRESTR--------------
+Mus                VSEFSEGSFSQSFTMKGSTSHDDFKFKGEPK-LSAQMKAVSAECLGPPLDSSTKNITKSL
+Xenopus            VGCLQQDLDSISSDAIEHTSSHHDKFAGQSQDIAVEIRQLAASNMG-TLEESSKQCEKLT
+Rat                LNSIQENTERKSTDIINKTTVHSKKILADSDGLLQELRHFNEEGTQ-LVEDSVGHCGSLS
+Humans             LSSVQENIQQKSKDIVNKMTFHSQKFCADSDGFSQELRNFNQEGTK-LVEESVKHSDKLN
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      ------------------------------------------------------------
+Mus                ASLVEIKEDGVGFSIRDPYYRDKVSRTVSLPTRGSTFPRQSRGATDTSPLTRRKSYDRGQ
+Xenopus            GSINAIS-------------RESQHWCESASQQIDSLLEE--------------------
+Rat                SNLETVS-------------QEITQRCGTLNTSTVHFSDQ--------------------
+Humans             GNLEKIS-------------QETEQRCESLNTRTVYFSEQ--------------------
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      ----------------------------------LQTLLSHKDEKISSLESKLRD-----
+Mus                PIRSTDMGFTPPSSPPTRPRNDRNVFSRLTSNQSQGSALDKSDDSDSSLSEVLRGIITPI
+Xenopus            ----------------------------------QVCYLRTSKKHLQSLQKDVEV-----
+Rat                ----------------------------------WASCLSKRKEELQNLMEFVNG-----
+Humans             ----------------------------------WVSSLNEREQELHNLLEVVSQ-----
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      ------------------------------------------------------------
+Mus                GGAKGARTAPLQCISMAEGHTKPILCLDATDELLFTGSKDRSCKMWNLVTGQEIAALKGH
+Xenopus            ------------------------------------GCGASVVEITEHVNAQRQAEEKAL
+Rat                ------------------------------------CCEASSSEITEKIRGHRAAIESQH
+Humans             ------------------------------------CCEASSSDITEKSDGRKAAHEKQH
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      ------------------------------------------------------------
+Mus                PNNVVSIKYCSHSGLVFSVSSSYIKVWDIRDSAKCIRTLTSSGQVISGDA---CIATSTR
+Xenopus            --------------------TSLVEQVRDDKEMLGEQRLELHEQVQSGQNKVNSYLNEEL
+Rat                --------------------SSFVVQITSDEEKFKAGSLELDKTIKTGLTKLNCFLQQDL
+Humans             --------------------NIFLDQMTIDEDKLIAQNLELNETIKIGLTKLNCFLEQDL
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      ----------------------------------------------------ILLKFKQI
+Mus                AITSAQGEHQINQMALSPSGSMLYVASGNAVRIWELNRFQPIGKLTGHIGPVMCLTVTQT
+Xenopus            RNDVPTGTTPQRRDYVYP--SLLVRTKPRDVLLEQFRQQQQ--------EYLESISSVIS
+Rat                KLDIPTGMTPERKNYLYP--STLVRTEPREQLLDQLQKKQP--------KPLMMLNCSES
+Humans             KLDIPTGTTPQRKSYLYP--STLVRTEPREHLLDQLKRKQP--------ELLMMLNCSEN
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      DSENTSLKSKIQEYEVMY------------------------------------------
+Mus                SNQHDLVVTGSKDHYVKMFQLGDCVTGTIGPTHNFEPPHYDGIECLAIQGDILFSGSRDN
+Xenopus            EAVEPPVEQDSLEDEPPVAVNDSVMSE--------KSCIDLSMVCQENGGVPFFQQKKAL
+Rat                SK-ETSQDME-EDREVLEQSTEELVSQ--------EPCVHTSADCSSSGGVPFFQHKKPH
+Humans             NKEETIPDVD-VEEAVLGQYTEEPLSQ--------EPSVDAGVDCSSIGGVPFFQHKKSH
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      ------------------------------------------------------------
+Mus                GIKKWDLDQQELIQQIPNAHKDWVCALAFVPGRPMLLSACRAGFIKVWNVDNFTPIGEIK
+Xenopus            RKEKENRANTTLLER---------------------------------------------
+Rat                GKDKENRGLNP-VEK---------------------------------------------
+Humans             GKDKENRGINT-LER---------------------------------------------
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      ------------------------------------------------------------
+Mus                GHDSPINAICTNSKHIFTASSDCRVKLWNYVPGLTPCLPRRVLAIKGRAPPCPDLPPPPL
+Xenopus            ------SKIMDEAEQ---------------------SLPKSKLPLRMQN-----------
+Rat                ------GKVEEASEH---------------------SISKSRLPLRASINLC--------
+Humans             ------SKVEETTEH---------------------LVTKSRLPLRAQINL---------
+Sus                ------------------------------------------------------------
+                                                                               
+
+Dictyostelium      ----------------------
+Mus                TLPILPFPVFPPPRSELLLHVT
+Xenopus            ----------------------
+Rat                ----------------------
+Humans             ----------------------
+Sus                ----------------------
+                                         

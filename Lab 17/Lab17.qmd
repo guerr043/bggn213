@@ -1,0 +1,227 @@
+---
+title: "Lab17"
+author: "Karen Guerrero"
+format: pdf
+---
+```{r}
+# Import vaccination data
+vax <- read.csv("Statewide.csv")
+```
+
+#Q1. What column details the total number of people fully vaccinated?
+persons_fully_vaccinated
+
+#Q2. What column details the Zip code tabulation area? 
+zip_code_tabulation_area
+
+#Q3. What is the earliest date in this dataset?
+2021-01-05
+
+#Q4. What is the latest date in this dataset? 
+2022-11-22
+
+
+```{r}
+head(vax)
+```
+```{r}
+tail(vax)
+```
+
+#Q5. How many numeric columns are in this dataset?
+13
+
+```{r}
+skimr::skim(vax)
+```
+
+
+```{r}
+sum(is.na(vax$persons_fully_vaccinated))
+```
+
+
+```{r}
+library(lubridate)
+```
+
+```{r}
+today()
+```
+
+```{r}
+# This will give an Error!
+##today() - vax$as_of_date[1]
+```
+
+```{r}
+# Specify that we are using the year-month-day format
+vax$as_of_date <- ymd(vax$as_of_date)
+```
+
+```{r}
+today() - vax$as_of_date[1]
+```
+
+```{r}
+vax$as_of_date[nrow(vax)] - vax$as_of_date[1]
+```
+
+```{r}
+library(zipcodeR)
+```
+
+```{r}
+geocode_zip('92037')
+```
+
+```{r}
+zip_distance('92037','92109')
+```
+
+```{r}
+reverse_zipcode(c('92037', "92109") )
+```
+
+```{r}
+# Pull data for all ZIP codes in the dataset
+zipdata <- reverse_zipcode( vax$zip_code_tabulation_area )
+```
+
+
+```{r}
+#vax$county == "San Diego"
+```
+
+```{r}
+library(ggplot2)
+library(ggmap)
+library(maps)
+library(mapdata)
+```
+
+```{r}
+usa <- map_data("usa")
+```
+
+```{r}
+dim(usa)
+```
+
+```{r}
+head(usa)
+```
+```{r}
+tail(usa)
+```
+
+```{r}
+states <- map_data("state")
+cali <- subset(states, region %in% c("california"))
+```
+
+```{r}
+ggplot(data = cali) + 
+  geom_polygon(aes(x = long, y = lat, group = group), fill = "palegreen", color = "black") + 
+  coord_fixed(1.3)
+```
+
+```{r}
+ca_df <- subset(states, region == "california")
+```
+
+```{r}
+counties <- map_data("county")
+```
+
+```{r}
+ca_county <- subset(counties, region == "california")
+```
+
+```{r}
+ca_base <- ggplot(data = ca_df, mapping = aes(x = long, y = lat, group = group)) + 
+  coord_fixed(1.3) + 
+  geom_polygon(color = "black", fill = "gray")
+ca_base + theme_nothing()
+```
+
+```{r}
+ca_base + theme_nothing() + 
+  geom_polygon(data = ca_county, fill = NA, color = "white") +
+  geom_polygon(color = "black", fill = NA)  # get the state border back on top
+```
+
+
+```{r}
+library(stringr)
+```
+
+```{r}
+# make a data frame
+    x <- readLines("population.txt")
+    pop_and_area <- str_match(x, "^([a-zA-Z ]+)County\t.*\t([0-9,]{2,10})\t([0-9,]{2,10}) sq mi$")[, -1] %>%
+      na.omit() %>%
+      str_replace_all(",", "") %>% 
+      str_trim() %>%
+      tolower() %>%
+      as.data.frame(stringsAsFactors = FALSE)
+```
+
+```{r}
+View(x)
+```
+
+
+```{r}
+    # give names and make population and area numeric
+    #names(pop_and_area) <- c("subregion", "population", "area")
+    #pop_and_area$population <- as.numeric(pop_and_area$population)
+    #pop_and_area$area <- as.numeric(pop_and_area$area)
+```
+
+
+
+
+
+
+
+
+
+
+```{r}
+library(dplyr)
+```
+
+```{r}
+sd <- filter(vax, county == "San Diego")
+```
+
+```{r}
+nrow(sd)
+```
+
+```{r}
+sd.10 <- filter(vax, county == "San Diego" &
+                age5_plus_population > 10000)
+```
+
+```{r}
+unique(sd.10$zip_code_tabulation_area)
+```
+
+```{r}
+sd.10[!duplicated(sd.10$zip_code_tabulation_area), ]
+```
+
+```{r}
+length(sd.10[!duplicated(sd.10$zip_code_tabulation_area), ])
+```
+
+```{r}
+which.max(nrow(sd.10[!duplicated(sd.10$zip_code_tabulation_area), ]))
+```
+
+```{r}
+ucsd <- filter(sd, zip_code_tabulation_area=="92037")
+ucsd[1,]$age5_plus_population
+```

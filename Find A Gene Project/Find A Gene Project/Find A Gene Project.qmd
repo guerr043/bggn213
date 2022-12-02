@@ -1,0 +1,50 @@
+---
+title: "Find A Gene Project"
+author: "Karen Guerrero"
+format: pdf
+---
+
+```{r}
+library(bio3d)
+```
+
+```{r}
+msa <- read.fasta("muscle-I20221130-175850-0592-91298427-p2m.clw.css.fst")
+```
+
+```{r}
+msa
+```
+
+
+```{r}
+library(pheatmap)
+```
+
+```{r}
+ide <- seqidentity(msa)
+```
+
+
+```{r}
+pheatmap((1-ide))
+```
+
+```{r}
+Q8 <- blast.pdb("PDFAVGLADLVLTQPPGVKRRERMVDRTHAWTRDTIDRLYGAGNTSGVSNKSLFLAPLLPLEKEMQLLYVQDLEDEMKDSISGFALFDGSTVEAVPDSMSHLVRMFFGNPHTPHRVLREISLGIDLTTIPFIGTASDAGLAFDFTFPQPPTENSKRNLPLAFDMWLSSHAVDTEPLKPGCQCYTCKNHHRAYIQHLLNAKEMLAWTLLQIHNHHVMDQFFAAVRGSIWNGTFAQDVETFERAYAPEFPEQTGQGPRIRGYQAKSD")
+```
+
+```{r}
+Q8$hit.tbl
+```
+
+```{r}
+pdb.annotate(c("6FV5_A", "7B2I_A", "2ASH_A"))
+```
+
+
+
+
+
+
+
