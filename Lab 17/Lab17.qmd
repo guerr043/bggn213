@@ -1,7 +1,7 @@
 ---
 title: "Lab17"
 author: "Karen Guerrero"
-format: pdf
+format: html
 ---
 ```{r}
 # Import vaccination data
